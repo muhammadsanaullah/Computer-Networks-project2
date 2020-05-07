@@ -136,7 +136,8 @@ public class SecureClient {
 
 	private static String decodeUS_ASCII(byte[] data) {
 		// TODO Auto-generated method stub
-		return null;
+		String s = new String(data);
+		return s;
 	}
 
 	private static void sendPUBLIC() throws IOException {
